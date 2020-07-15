@@ -1,7 +1,10 @@
 public class Main {
+
     public static void main(String[] args) {
 
-        System.out.println("cos");
 
+        FindeFile findeFile = new FindeFile();
+        findeFile.searchFileInVolume("E", "", "sth", "txt");
+        //   findeFile.searchFileInAllSystem( "", "sth", "");
     }
 }
